@@ -1,9 +1,10 @@
 import React from 'react';
+import Page from './components/page';
 
-function App() {
-  return (
-    <h1>Passwords Game</h1>
-  );
-}
+const App = () => (
+  <Page>
+    <h1>Home</h1>
+  </Page>
+);
 
 export default App;
